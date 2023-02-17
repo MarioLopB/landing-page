@@ -2,15 +2,26 @@ body {
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
+    padding: 0px;
 }
 
 .container1 {
-    flex: auto;
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     flex-direction: column;
     padding: 8px 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content > .image {
+    flex: auto;
+    height: 166.5;
+    width: 250px;
 }
 
 .header {
@@ -20,7 +31,7 @@ body {
 }
 
 .container2 {
-    flex: 1 1 auto;
+    flex: 1 1 0;
 }
 
 .container3 {

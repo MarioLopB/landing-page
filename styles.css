@@ -75,6 +75,10 @@ body {
 .container3 {
     background-color: #e5e7eb;
     flex: 1 1 0;
+    padding: 100px 200px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .container4 {

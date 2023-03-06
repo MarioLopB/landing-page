@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container1 {
@@ -21,17 +22,29 @@ body {
 
 .content {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.content > .image {
+.content #image1 {
     flex: 0 0 auto;
-    height: 166.5;
+    height: auto;
     width: 250px;
     padding-left: 8px;
 
+}
+
+.boton {
+    border-radius: 5px;
+    border: 0;
+    background-color: #3882f6;
+    width: 100px;
+    height: 25px;
+    color: #f9faf8;
+    font-weight: 600;
+    text-align: center;
 }
 
 .sign_container {
@@ -40,13 +53,15 @@ body {
 }
 
 .header {
-    flex: 1;
+    flex: 1 0 0;
     display: flex;
     justify-content: space-between;
 }
 
 .header .logo {
+    width: 100px;
     font-size: 24px;
+    flex: auto;
 }
 
 .content .title {
@@ -57,19 +72,48 @@ body {
 #text1 {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 10px;
 }
 
 .header .links {
+    justify-self: end;
     list-style-type: none;
-    width: 250px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
 }
 
+.header .links li {
+    flex: 0 0 auto;
+}
+
 .container2 {
     flex: 1 1 0;
-    padding-top: 80px;
+    padding: 40px 100px;
+}
+
+.container2 .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+    padding: 8px;
+}
+
+.container2 .images {
+    display: flex;
+    gap: 30px;
+}
+
+.container2 .square{
+    flex: 1 1 0;
+    border-style: solid;
+    border-width: thick;
+    border-color: #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
 }
 
 .container3 {

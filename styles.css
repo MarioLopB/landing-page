@@ -28,6 +28,11 @@ body {
     padding-bottom: 80px;
 }
 
+.content .sign_container {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
 .content #image1 {
     flex: 0 0 auto;
     height: auto;
@@ -41,7 +46,7 @@ body {
     border: 0;
     background-color: #3882f6;
     width: 100px;
-    height: 25px;
+    height: 35px;
     color: #f9faf8;
     font-weight: 600;
     text-align: center;
@@ -139,8 +144,34 @@ body {
     flex: 1 1 auto;
     margin: 100px;
     background-color: #3882f6;
+    padding: 40px 100px; 
+    border-radius: 10px;
+    color:#f9faf8;
+    display: flex;
+    flex-direction: column;
 }
 
-.footer {
+.container4 .desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 .title {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1 1 0;
+}
+
+.container4 .boton {
+    border-style: solid;
+    border-width: 2px;
+    padding-bottom: 2px;
+}
+
+#footer {
     flex: 0 0 auto;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 40px;
 }
